@@ -24,7 +24,7 @@ while (cont)
                 }
                 else
                 {
-                    Console.WriteLine($"Celsius: {StaticExercise.TempConverter.FahrenheitToCelsius(userInput)}");
+                    Console.WriteLine($"Celsius: {StaticExercise.TempConverter.FahrenheitToCelsius(userInput)} degrees");
                     break;
                 }
             case "2":
@@ -37,7 +37,7 @@ while (cont)
                 }
                 else
                 {
-                    Console.WriteLine($"Fahrenheit: {StaticExercise.TempConverter.CelsiusToFahrenheit(userInput)}");
+                    Console.WriteLine($"Fahrenheit: {StaticExercise.TempConverter.CelsiusToFahrenheit(userInput)} degrees");
                     break;
                 }
             default:
